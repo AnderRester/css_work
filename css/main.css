@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+a {
+	color: #000;
+}
+body {
+	display: grid;
+	background: #E5E5E5;
+}
+header {
+	display: grid;
+	grid-template-columns: 275px auto;
+}
+nav {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+section {
+	/*border: 1px solid #000;*/
+	height: 500px;
+}
+a.logo {
+	padding: 2% 10%;
+	font-size: 25px;
+}
+a.navigation_element {
+	/*border: 1px solid #000;*/
+	font-family: numto;
+	text-align: center;
+	padding: 8px 0;
+}
+a.navigation_element:last-child {
+	border: 1px solid #000;
+	border-radius: 5px;
+}

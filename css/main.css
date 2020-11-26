@@ -73,17 +73,17 @@ p.explore {
 	border-radius: 4px;
 	color: #FFFFFF;
 }
-p.prev {
+.prev {
 	position: absolute;
-	right: 9px;
+	right: 0px;
 	top: 165px;
 }
-p.bg_logo {
+.bg_logo {
 	position: absolute;
 	top: 400px;
-	left: 522px;
+	right: 248px;
 }
-p.bg_figure {
+.bg_figure {
 	height: 800px;
 	width: 370px;
 	position: absolute;
@@ -95,6 +95,27 @@ p.bg_figure {
 }
 #cont_1 {
 	margin-top: 217px;
-	margin-left: 126px;
+	margin-left: 102px;
 	color: #3E3F43;
+}
+.sub_article_logo {
+	margin-left: 100px;
+}
+.line {
+	width: 316px;
+	height: 1px;
+	background: #000;
+}
+.letter {
+	margin-left: 107px;
+}
+.about {
+	font-size: 72px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800;
+}
+.who {
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	font-size: 36px;
 }
